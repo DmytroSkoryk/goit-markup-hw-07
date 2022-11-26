@@ -1,0 +1,22 @@
+.logo {
+    text-decoration: none;
+    font-family: "raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--color-link);
+  }
+  .nav__logo {
+    margin-right: 93px;
+  }
+  .nav__logo--black {
+    color: #000000;
+  }
+  .footer__logo {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .footer__logo--white {
+    color: #ffffff;
+  }

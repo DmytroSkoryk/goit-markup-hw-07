@@ -1,0 +1,37 @@
+.clients__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--color-title);
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .clients__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .clients__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    outline: 1px Solid #afb1b8;
+    border-radius: 4px;
+    color: #afb1b8;
+    transition-property: outline color;
+    transition-duration: var(--time-change);
+    transition-timing-function: var(--cubic-bezier);
+  
+  &:hover,
+  &:focus {
+    color: var(--color-link);
+    outline: 1px Solid var(--color-link);
+  }
+}
+  .clients__icon {
+    fill: currentColor;
+  }
